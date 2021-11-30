@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	redis "github.com/kerwinruby/redis.v8"
+	redis "github.com/kerwinruby/redis"
 )
 
 var _ = Describe("Cmd", func() {

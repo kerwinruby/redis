@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
+	"github.com/kerwinruby/redis/internal/pool"
 )
 
 var _ = Describe("ConnPool", func() {

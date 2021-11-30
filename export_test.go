@@ -6,9 +6,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/kerwinruby/redis.v8/internal"
-	"github.com/kerwinruby/redis.v8/internal/hashtag"
-	"github.com/kerwinruby/redis.v8/internal/pool"
+	"github.com/kerwinruby/redis/internal"
+	"github.com/kerwinruby/redis/internal/hashtag"
+	"github.com/kerwinruby/redis/internal/pool"
 )
 
 func (c *baseClient) Pool() pool.Pooler {

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/util"
+	"github.com/kerwinruby/redis/internal/util"
 )
 
 // Scan parses bytes `b` to `v` with appropriate type.

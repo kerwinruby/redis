@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/kerwinruby/redis.v8/internal/rand"
+	"github.com/kerwinruby/redis/internal/rand"
 )
 
 func TestGinkgoSuite(t *testing.T) {

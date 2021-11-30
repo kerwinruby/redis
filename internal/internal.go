@@ -3,7 +3,7 @@ package internal
 import (
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/rand"
+	"github.com/kerwinruby/redis/internal/rand"
 )
 
 func RetryBackoff(retry int, minBackoff, maxBackoff time.Duration) time.Duration {

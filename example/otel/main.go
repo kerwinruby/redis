@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 
 	"github.com/go-redis/redis/extra/redisotel/v8"
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 	"github.com/uptrace/opentelemetry-go-extra/otelplay"
 )
 

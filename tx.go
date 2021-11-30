@@ -3,8 +3,8 @@ package redis
 import (
 	"context"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal/pool"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 // TxFailedErr transaction redis failed.

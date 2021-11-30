@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
+	"github.com/kerwinruby/redis/internal/pool"
 )
 
 // Limiter is the interface of a rate limiter or a circuit breaker.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 func main() {

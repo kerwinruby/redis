@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
+	"github.com/kerwinruby/redis/internal/pool"
 )
 
 type pipelineExecer func(context.Context, []Cmder) error

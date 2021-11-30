@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal"
+	"github.com/kerwinruby/redis/internal"
 )
 
 // KeepTTL is a Redis KEEPTTL option to keep existing TTL, it requires your redis-server version >= 6.0,

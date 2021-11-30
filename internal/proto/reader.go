@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kerwinruby/redis.v8/internal/util"
+	"github.com/kerwinruby/redis/internal/util"
 )
 
 // redis resp protocol data type.

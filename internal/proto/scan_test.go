@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 type testScanSliceStruct struct {

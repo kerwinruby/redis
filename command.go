@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal"
-	"github.com/kerwinruby/redis.v8/internal/hscan"
-	"github.com/kerwinruby/redis.v8/internal/proto"
-	"github.com/kerwinruby/redis.v8/internal/util"
+	"github.com/kerwinruby/redis/internal"
+	"github.com/kerwinruby/redis/internal/hscan"
+	"github.com/kerwinruby/redis/internal/proto"
+	"github.com/kerwinruby/redis/internal/util"
 )
 
 type Cmder interface {

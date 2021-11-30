@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal"
-	"github.com/kerwinruby/redis.v8/internal/pool"
-	"github.com/kerwinruby/redis.v8/internal/rand"
+	"github.com/kerwinruby/redis/internal"
+	"github.com/kerwinruby/redis/internal/pool"
+	"github.com/kerwinruby/redis/internal/rand"
 )
 
 //------------------------------------------------------------------------------

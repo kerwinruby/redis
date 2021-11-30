@@ -5,7 +5,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 type Model struct {

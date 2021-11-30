@@ -12,7 +12,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 var _ = Describe("Redis Ring", func() {

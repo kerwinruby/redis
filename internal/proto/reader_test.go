@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 func BenchmarkReader_ParseReply_Status(b *testing.B) {

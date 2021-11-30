@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal"
-	"github.com/kerwinruby/redis.v8/internal/pool"
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal"
+	"github.com/kerwinruby/redis/internal/pool"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 // Nil reply returned by Redis when key does not exist.

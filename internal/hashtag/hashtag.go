@@ -3,7 +3,7 @@ package hashtag
 import (
 	"strings"
 
-	"github.com/kerwinruby/redis.v8/internal/rand"
+	"github.com/kerwinruby/redis/internal/rand"
 )
 
 const slotNumber = 16384

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
+	"github.com/kerwinruby/redis/internal/pool"
 )
 
 type poolGetPutBenchmark struct {

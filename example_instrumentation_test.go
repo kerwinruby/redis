@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 type redisHook struct{}

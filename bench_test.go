@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kerwinruby/redis.v8"
+	"github.com/kerwinruby/redis"
 )
 
 func benchmarkRedisClient(ctx context.Context, poolSize int) *redis.Client {

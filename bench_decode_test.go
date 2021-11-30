@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 var ctx = context.TODO()

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal/util"
+	"github.com/kerwinruby/redis/internal/util"
 )
 
 func Sleep(ctx context.Context, dur time.Duration) error {

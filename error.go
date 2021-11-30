@@ -6,8 +6,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/kerwinruby/redis.v8/internal/pool"
-	"github.com/kerwinruby/redis.v8/internal/proto"
+	"github.com/kerwinruby/redis/internal/pool"
+	"github.com/kerwinruby/redis/internal/proto"
 )
 
 // ErrClosed performs any operation on the closed client will return this error.

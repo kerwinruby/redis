@@ -12,11 +12,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kerwinruby/redis.v8/internal"
-	"github.com/kerwinruby/redis.v8/internal/hashtag"
-	"github.com/kerwinruby/redis.v8/internal/pool"
-	"github.com/kerwinruby/redis.v8/internal/proto"
-	"github.com/kerwinruby/redis.v8/internal/rand"
+	"github.com/kerwinruby/redis/internal"
+	"github.com/kerwinruby/redis/internal/hashtag"
+	"github.com/kerwinruby/redis/internal/pool"
+	"github.com/kerwinruby/redis/internal/proto"
+	"github.com/kerwinruby/redis/internal/rand"
 )
 
 var errClusterNoNodes = fmt.Errorf("redis: cluster has no nodes")
